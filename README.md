@@ -1,9 +1,9 @@
-**<h1> Git & GitHub (DIO) </h1>**
+<h1 align="center"> Git & GitHub (DIO) </h1>
 Durante o Bootcamp da <a href="https://web.dio.me/tracks" taget = "_blank">Digital Innovation One</a> foram ministradas aulas sobre o funcionamento do Git e do GutHub e proposto um desafio: Criar seu repositório no GitHub e subir arquivos para o mesmo levando em conta as aulas de "Introdução ao Git e ao GitHub" ministradas pelo professor Otávio Reis.
 
 ##
 
-**<h2>Introdução ao Git</h2>**
+**<h1 align="center"> Introdução ao Git (DIO) </h1>**
 
 GIT é um sistema de versionamento de código destribuído. Foi criado por Linus Torvalds, em 2005;
 Não Possui uma interface Gráfica (CLI), podendo interagir somente por linha de comando;
@@ -29,7 +29,7 @@ Não Possui uma interface Gráfica (CLI), podendo interagir somente por linha de
   </ul>
   
 
-## Tópicos fundamentais para entender o funcionamento do Git
+## <h1 align="center"> Tópicos fundamentais para entender o funcionamento do Git </h1>
 
 - SHA1
 
@@ -37,7 +37,7 @@ Algorítmo de Encriptação. O Algoritmo pega o arquivo e o embaralha de maneira
 
 ##
 
--  <h2> Objetos fundamentais </h2>
+-  <h1 align="center"> Objetos fundamentais </h1>
 
 1. BLOBS
 
@@ -59,7 +59,7 @@ Diferentemento da blob, a árvore guarda o nome do arquivo e podem apontar tanto
 
 Estrutura: Tipo do objeto + tamanho do objeto + árvore + parente (ou seja, último commit realizado) + autor + mensagem + timestamp (arquivo de tempo)
 
- ## Porque o Git é um sistema ditribuído e seguro?
+ ## <h1 align="center"> Porque o Git é um sistema ditribuído e seguro? </h1>
  
  - Chave SSH
 
@@ -104,9 +104,7 @@ output: id_ed25519 (email@gmail.com)
 No github: copiar SSH do projeto
 
 
-##
-
-<h3> Alguns Comandos no Git </h3>
+## <h1 align="center"> Alguns Comandos no Git </h1>
 
 - Clonar Projeto:
 
