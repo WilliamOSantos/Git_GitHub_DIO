@@ -1,10 +1,10 @@
-<h1>Git_GitHub_DIO</h1>
+**<h1> Git & GitHub (DIO) </h1>**
 Durante o Bootcamp da <a href="https://web.dio.me/tracks" taget = "_blank">Digital Innovation One</a> foram ministradas aulas sobre o funcionamento do Git e do GutHub e proposto um desafio: Criar seu repositório no GitHub e subir arquivos para o mesmo levando em conta as aulas de "Introdução ao Git e ao GitHub" ministradas pelo professor Otávio Reis.
 
 ##
 
 **<h2>Introdução ao Git</h2>**
-#
+
 GIT é um sistema de versionamento de código destribuído. Foi criado por Linus Torvalds, em 2005;
 Não Possui uma interface Gráfica (CLI), podendo interagir somente por linha de comando;
   
