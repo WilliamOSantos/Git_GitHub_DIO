@@ -11,19 +11,19 @@ Não Possui uma interface Gráfica (CLI), podendo interagir somente por linha de
 `Comandos para usuários do Windows:`
   
   <ul>
-<li> cd(navegar entre as pastas) </li>
+<li> cd (navegar entre as pastas) </li>
 <li> dir (listar; se situar dentro do sistema computacional) </li>
-<li> mkdir(criar pasta) </li>
-<li> del / rmdir(remover arquivos \ remover respositório) </li>
+<li> mkdir (criar pasta) </li>
+<li> del / rmdir (remover arquivos \ remover respositório) </li>
 <li> cls (limpar a tela) </li>
 </ul>
 
 `Comandos Para Usuários do Linux:`
 
 <ul>
-<li> cd(navegar entre as pastas) </li>
+<li> cd (navegar entre as pastas) </li>
 <li> ls (listar; se situar dentro do sistema computacional) </li>
-<li> mkdir(criar pasta) </li>
+<li> mkdir (criar pasta) </li>
 <li> rm -rf (remover arquivos \ remover respositório) </li>
 <li> clear (limpar a tela) </li>
   </ul>
@@ -37,7 +37,7 @@ Algorítmo de Encriptação. O Algoritmo pega o arquivo e o embaralha de maneira
 
 ##
 
--  <h2>Objetos fundamentais</h2>
+-  <h2> Objetos fundamentais </h2>
 
 1. BLOBS
 
@@ -69,10 +69,13 @@ Conexão estabelecida com duas chaves, sendo uma pública e outra privada.
 
 - Gerar Chave no Git Bash:
 
-passo 1: ssh-keygen -t ed25519 -C email@gmail.com
-passo 2: selecionar pasta que deseja salvar e a senha
-passo 3: localizar na pasta -> cd /c/Users/...
-passo 4: cat id_ed25519.pub
+`Passo 1:` ssh-keygen -t ed25519 -C email@gmail.com
+
+`Passo 2:` selecionar pasta que deseja salvar e a senha
+
+`Passo 3:` localizar na pasta -> cd /c/Users/...
+
+`Passo 4:` cat id_ed25519.pub
 
 - Gerar Chave no GitHub:
 
@@ -80,13 +83,13 @@ Settings > SSH and GPC keys > New SSH key > colar a chave que o git bash retorno
 
 - GitBash (De Novo)
 
-`passo 1:`
+`Passo 1:`
 
 input:  eval $(ssh-agent -s)
 
 output: Agent pid 999
 
-`passo 2:`
+`Passo 2:`
 
 input: ssh-add id_ed25519
 
@@ -103,7 +106,7 @@ No github: copiar SSH do projeto
 
 ##
 
-<h3>Alguns Comandos no Git</h3>
+<h3> Alguns Comandos no Git </h3>
 
 - Clonar Projeto:
 
@@ -113,18 +116,23 @@ ou seja, git clone + SSH do projeto
 - Iniciar GIT
 
 `git init` (inicializa um repositório)
+
 `git add` (passa o arquivo de untracked para tracked - staged) 
+
 `git commit` <br>
 
-Ummodified - arquivo que não sofreu modificação
-Modified - arquivo que foi modificado
+Ummodified - arquivo que não sofreu modificação /
+Modified - arquivo que foi modificado /
 Staged - esperando para ser manipulado
 
  - Resolvendo conflitos
 
 `git add.` 
+
 `git commit -a`
+
 `git pull origin main`
+
 `git push origin main`
 
 ## Links úteis
